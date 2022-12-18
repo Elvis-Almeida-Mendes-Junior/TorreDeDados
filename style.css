@@ -4,22 +4,23 @@
     padding: 0;
     margin: 0;
     object-fit: cover;
-    border: none;
+    border-radius: 5px;
 }
 
 body{
-    background:#023535;
+    background:#064141;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .centralized{
     display: grid;
 }
 h1{
     margin-left: 13px;
-    margin-top: 20px;
-    color: rgb(212, 212, 212);
-    font-size:20px;
+    margin-top: 50px;
+    color:rgb(231, 227, 227);
+    font-size: 20px;
     font-family: 'Press Start 2P', cursive; 
     text-shadow: 2px 2px 2px black;
 }
@@ -49,7 +50,7 @@ h1{
     width: 250px;
     outline: none;
     background-color: #D9A443;
-    border: none;
+    border: 2px solid black;
     text-align: center;
     font-family: 'Press Start 2P', cursive;
     color:white;
@@ -79,5 +80,7 @@ h1{
     justify-content: center;
     align-items: center;
     font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
     color:white;
+    border-radius: 5px;
 }
