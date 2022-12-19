@@ -26,7 +26,7 @@ h1{
 }
 .container{
     width: 300px;
-    height: 500px;
+    height: 450px;
     border: 5px solid black;
     margin-top: 50px;
     display: flex;
@@ -83,4 +83,11 @@ h1{
     font-size: 20px;
     color:white;
     border-radius: 5px;
+}
+footer{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    color: rgb(211, 210, 210);
+    margin-top: 5px;
 }
